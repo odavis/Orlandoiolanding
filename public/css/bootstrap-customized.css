@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: verdana, sans-serif;
+  font-size: 0.85em;
+}
+
+.container {
+  float: middle;
+  margin: 30px;
+}
