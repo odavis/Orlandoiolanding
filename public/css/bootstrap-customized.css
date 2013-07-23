@@ -1,10 +1,33 @@
+
+
 body {
   margin: 0;
   font-family: verdana, sans-serif;
   font-size: 0.85em;
+  padding-top: 18%;
+  padding-bottom: 40px;
+  text-align: center; 
+  /* background-image:url('../images/orlandocity.jpg');
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+
+  */
 }
 
 .container {
   float: middle;
+  margin: 0 auto; 
+  max-width: 700px;
   margin: 30px;
+}
+
+.container h1{
+  font-size: 70px;
+}
+
+.jumbotron p {
+	padding-top: 5px;
+    font-size: 15px;
+    line-height: 1;
 }
