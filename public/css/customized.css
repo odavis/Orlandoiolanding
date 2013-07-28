@@ -1,0 +1,49 @@
+
+body {
+  background-color: #1ABC9C;
+}
+
+.container {
+  padding-top: 20px;
+}
+
+.jumbotron {
+  background-color: #1ABC9C;
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+  color: white !important;
+}
+
+.description {
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #428bca;
+}
+
+p {
+  text-align: center;
+}
+
+input{
+   text-align:center;
+}
+
+.social-media {
+  text-align: center;
+}
+
+
+.form-group {
+  text-align: center;
+}
