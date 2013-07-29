@@ -10,12 +10,15 @@
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/customized.css" rel="stylesheet" media="screen">
+    
+    
+
   </head>
 
   <!-- Body  -->
-  <body>
+  <body id="main">
     <div class="container">
-      <div class="jumbotron">
+      <div class="jumbotron" >
         <h1>ORLANDO.IO</h1>
         <h2 class= "description">A directory of the events, places, and people that make Orlando's startup community</h2>
         <form class="form-inline" action="http://orlando.us7.list-manage.com/subscribe/post?u=39dad3862b88930aabe4dbd91&amp;id=8579253272" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -32,13 +35,21 @@
         <div class="social-media">
           <a class="social-icons" href="http://facebook.com/orlando.io"><i class="icon-facebook-sign icon-2x"></i> </a>
           <a class="social-icons" href="http://twitter.com/orlandoio"><i class="icon-twitter-sign icon-2x"></i> </a>
+          <h6 class= "description">Crafted in Orlando</h6>
         </div>
       </div>
+
+
     </div>
 
   <!-- Google Analytics -->
- <script src="http://code.jquery.com/jquery.js"></script>
- <script src="js/bootstrap.min.js"></script>
+ 
+
+  <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="js/jquery.backstretch.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
  <script type="text/javascript"> 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-38174828-1']);
@@ -51,5 +62,17 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
+
+ <script>
+  // To attach Backstrech as the body's background
+  $("#main").backstretch(
+      ["images/orlandoskyline.jpg",
+       "images/orlandocity.jpg", 
+        "images/plaza.jpg"
+      ],{duration: 3000, fade: 750});
+</script>
+
+
+
   </body>
 </html>

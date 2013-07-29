@@ -1,6 +1,6 @@
 
 body {
-  background-color: #1ABC9C;
+  /* background-color: #1ABC9C; */
 }
 
 .container {
@@ -8,19 +8,21 @@ body {
 }
 
 .jumbotron {
-  background-color: #1ABC9C;
+  background-color:  transparent;  
 }
 
 h1 {
   font-weight: bold;
   text-align: center;
   color: white !important;
+  text-shadow: 1px 1px 1px black;
 }
 
 .description {
   font-weight: bold;
   text-align: center;
   color: white;
+  text-shadow: 1px 1px 1px black;
 }
 
 a {
@@ -43,7 +45,7 @@ input{
   text-align: center;
 }
 
-
 .form-group {
   text-align: center;
 }
+
